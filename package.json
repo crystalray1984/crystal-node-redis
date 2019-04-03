@@ -1,0 +1,26 @@
+{
+    "name": "crystal-node-redis",
+    "version": "1.0.1",
+    "description": "crystal-node框架使用的redis连接库",
+    "mainTypes": "./src/index.d.ts",
+    "main": "./src/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/crystalray1984/crystal-node-redis.git"
+    },
+    "author": "crystal1984",
+    "bugs": {
+        "url": "https://github.com/crystalray1984/crystal-node-redis/issues"
+    },
+    "homepage": "https://github.com/crystalray1984/crystal-node-redis#readme",
+    "dependencies": {
+        "generic-pool": "^3.7.1",
+        "redis": "^2.8.0"
+    }
+}
