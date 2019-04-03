@@ -1,6 +1,6 @@
 {
     "name": "crystal-node-redis",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "crystal-node框架使用的redis连接库",
     "mainTypes": "./src/index.d.ts",
     "main": "./src/index.js",
