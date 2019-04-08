@@ -989,8 +989,10 @@ declare namespace NodeRedis {
         createClient(options: Redis.ClientOpts): Client
     }
 
+    interface ClientOptions extends Redis.ClientOpts { }
+
     function createPool(options: PoolOptions): Pool
-    function createClient(options: Redis.ClientOpts): Client
+    function createClient(options: ClientOptions): Client
     var debug_mode: boolean
 }
 
