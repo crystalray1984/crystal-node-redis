@@ -50,19 +50,19 @@ class Client extends Connection {
         return promiseCall(this.client, 'auth', ...args)
     }
 
-    debug() {
+    debug(...args) {
         return promiseCall(this.client, 'debug', ...args)
     }
 
-    monitor() {
+    monitor(...args) {
         return promiseCall(this.client, 'debug', ...args)
     }
 
-    psubscribe() {
+    psubscribe(...args) {
         return promiseCall(this.client, 'psubscribe', ...args)
     }
 
-    punsubscribe() {
+    punsubscribe(...args) {
         return promiseCall(this.client, 'punsubscribe', ...args)
     }
 
@@ -71,27 +71,27 @@ class Client extends Connection {
         this.client.end()
     }
 
-    select() {
+    select(...args) {
         return promiseCall(this.client, 'select', ...args)
     }
 
-    shutdown() {
+    shutdown(...args) {
         return promiseCall(this.client, 'shutdown', ...args)
     }
 
-    slaveof() {
+    slaveof(...args) {
         return promiseCall(this.client, 'slaveof', ...args)
     }
 
-    subscribe() {
+    subscribe(...args) {
         return promiseCall(this.client, 'subscribe', ...args)
     }
 
-    sync() {
+    sync(...args) {
         return promiseCall(this.client, 'sync', ...args)
     }
 
-    unsubscribe() {
+    unsubscribe(...args) {
         return promiseCall(this.client, 'unsubscribe', ...args)
     }
 
