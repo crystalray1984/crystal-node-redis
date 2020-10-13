@@ -66,9 +66,8 @@ class Client extends Connection {
         return promiseCall(this.client, 'punsubscribe', ...args)
     }
 
-    async quit() {
-        await promiseCall(this.client, 'quit', ...args)
-        this.client.end()
+    quit(...args) {
+        return promiseCall(this.client, 'quit', ...args)
     }
 
     select(...args) {
