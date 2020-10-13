@@ -526,6 +526,14 @@ module.exports = [
         scope: ['pool', 'multi', 'single']
     },
     {
+        cmd: "zpopmin",
+        scope: ['pool', 'multi', 'single']
+    },
+    {
+        cmd: "zpopmax",
+        scope: ['pool', 'multi', 'single']
+    },
+    {
         cmd: "zrange",
         scope: ['pool', 'multi', 'single']
     },
