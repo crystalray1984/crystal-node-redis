@@ -9,6 +9,7 @@ function createPool(options) {
 }
 
 function createClient(options) {
+    //const client = Redis.createClient(options)
     return new Client(Redis.createClient(options))
 }
 

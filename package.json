@@ -21,6 +21,6 @@
     "homepage": "https://github.com/crystalray1984/crystal-node-redis#readme",
     "dependencies": {
         "generic-pool": "^3.7.1",
-        "redis": "^2.8.0"
+        "redis": "^3.0.2"
     }
 }
