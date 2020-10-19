@@ -20,7 +20,7 @@ class Connection {
     }
 
     sendCommand(command) {
-        return promiseCall(this.client, 'sendCommand', command)
+        return this.__query('sendCommand', command)
     }
 }
 
