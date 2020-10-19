@@ -46,6 +46,10 @@ module.exports = [
         scope: ['pool', 'multi', 'single']
     },
     {
+        cmd: "command",
+        scope: ['pool', 'multi', 'single']
+    },
+    {
         cmd: "dbsize",
         scope: ['pool', 'multi', 'single']
     },
