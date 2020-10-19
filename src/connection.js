@@ -18,6 +18,10 @@ class Connection {
 
         return promiseCall(this.client, name, ...args)
     }
+
+    sendCommand(command) {
+        return promiseCall(this.client, 'sendCommand', command)
+    }
 }
 
 commands.forEach(item => {

@@ -574,6 +574,8 @@ declare namespace NodeRedis {
          */
         sdiffstore(destination: string, key: string, ...otherkeys: string[]): Promise<number>
 
+        sendCommand(command: string): Promise<any>
+
         /**
          * Set the string value of a key.
          */
